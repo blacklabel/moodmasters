@@ -1,0 +1,74 @@
+<head>
+  <title>Mood Masters - visuals</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/highcharts-more.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="https://code.highcharts.com/modules/pictorial.js"></script>
+  <script src="https://code.highcharts.com/modules/item-series.js"></script>
+  <script src="https://code.highcharts.com/modules/pattern-fill.js"></script>
+
+  <script src="./js/chartDefaultOptions.js"></script>
+  <script type="module" src="./js/highchartsCustom.js"></script>
+  <script type="module" src="./js/dataCalculations.js"></script>
+  <script type="module" src="./js/swiperCode.js"></script>
+
+  <script type="module" src="./js/moodmasters.js"></script>
+
+
+</head>
+
+
+<body>
+  <picture style="width: 100%; height:100%; position:absolute">
+    <source srcset="https://hellomood.pl/mood-masters-2025/_astro/masters.Cbi1GgGz_Zqgjqh.webp" type="image/jpeg" style = "background: url(https://www.highcharts.com/samples/graphics/sand.png); width: 100%; height:100%; position:absolute" >
+    <img src="https://hellomood.pl/mood-masters-2025/_astro/masters.Cbi1GgGz_Zqgjqh.webp" style = "width: 100%; height:100%; position:absolute">
+  </picture>
+
+  <picture style="width: 100%; height:100%; position:absolute; opacity: 0.7">
+    <source srcset="https://hellomood.pl/mood-masters-2025/images/hero/euphoria.webp" type="image/jpeg" style = "background: url(https://hellomood.pl/mood-masters-2025/images/hero/euphoria.webp); width: 100%; height:100%; position:absolute" >
+    <img src="https://hellomood.pl/mood-masters-2025/images/hero/euphoria.webp" style = "width: 100%; height:100%; position:absolute;">
+  </picture>
+
+  <div class = "whole-swiper-container">
+    <div class="swiper-side-menu">
+      <div class = "swiper-title"></div>
+      <div class = "swiper-subtitle"></div>
+      <div class = "swiper-label">.</div>
+
+    </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><div id="container" style ="width: 100%; height: 80%;" loading="lazy"></div></div>
+        <div class="swiper-slide"><div id="container2" style ="width: 100%; height: 80%;" loading="lazy"></div></div>
+        <div class="swiper-slide"><div id="container3" style ="width: 100%; height: 80%;"></div></div>
+        <div class="swiper-slide"><div id="container4" style ="width: 100%; height: 80%;"></div></div>
+
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="autoplay-progress-whole">
+      <svg viewBox="0 0 48 48">
+        <circle cx="24" cy="24" r="20"></circle>
+      </svg>
+    </div>
+    <div class="autoplay-progress">
+      <svg viewBox="0 0 48 48">
+        <circle cx="24" cy="24" r="20"></circle>
+      </svg>
+      <div id = 'fa-icon'><i id="icon" class="fa fa-pause"></i>
+    </div>
+  </div>
+
+</body>
